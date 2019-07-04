@@ -7,6 +7,6 @@ public class testJenkins {
 	@Test
 	public void testFirstFilling() {
 		jenkins sut = new jenkins();
-		assertEquals(true, sut.isFull(4, 0));
+		assertEquals(true, false);
 	}
 }
